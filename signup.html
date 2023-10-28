@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>sign up</title>
+        <link rel="stylesheet" href="sign.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!--Create registration form-->
+        <div class="container">
+        <div class="form-box">
+            <form action="" name="Form-fill" onsubmit="return validation()">
+                <h2>Register</h2>
+                <p id="result">head</p>
+                <div class="input-box">
+                    <i class='bx bxs-user'></i>
+                    <input type="text" name="Username" placeholder="Username">
+                 </div>
+                <div class="input-box">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="email" name="Email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" name="Password" placeholder="Password"> 
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" name="cPassword" placeholder="Confirm password">                    
+                </div>
+                <div class="button">
+                    <input type="submit" class="btn" value="Register">
+                </div>
+                <div class="group">
+                    <span><a href="#">Forget Password</a></span>
+                    <span><a href="#">Login</a></span>
+
+                </div>
+            </form>
+        </div>
+        </div>
+        <!--Second step we have to create a pop up value-->
+        <script src="sign.js"></script>
+
+
+    </body>
+</html>
