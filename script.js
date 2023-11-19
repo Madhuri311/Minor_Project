@@ -26,4 +26,7 @@ $('.testimonial_slider').slick({
             }
         }
     ]
-})
+});
+AOS.init();    
+
+
